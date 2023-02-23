@@ -95,6 +95,72 @@ main .box-user .pin:hover {
 /* Menu Bottom */
 .menu-bottom { 
   display: flex;
+  align-items: center;
   height: 80px;
   background-color: #222222;
 }
+
+.menu-bottom button {
+  color: white;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+}
+
+.menu-bottom button:hover {
+  background-color: #4a4a4a;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.menu-bottom button span {
+  text-transform: capitalize;
+  display: block;
+  white-space: nowrap;
+}
+
+.menu-bottom button .btn-icon {
+  font-size: 1.9em;
+  padding: 8px;
+}
+
+.menu-bottom button .btn-icon.share-icon {
+  color: rgb(69, 173, 69);
+}
+
+.menu-bottom button .btn-up {
+  font-size: 0.8em;
+}
+
+.menu-bottom .bottom-left,
+.menu-bottom .bottom-center,
+.menu-bottom .bottom-right {
+  display: flex;
+}
+
+.menu-bottom .bottom-left {
+  width: 25%;
+}
+
+.menu-bottom .bottom-center {
+  justify-content: center;
+  width: 50%;
+}
+
+.menu-bottom .bottom-right {
+  justify-content: flex-end;
+  width: 25%;
+  height: 100%;
+}
+
+.menu-bottom .bottom-right button {
+  padding: 20px;
+  color: rgb(236, 29, 29);
+  background-color: #4a4a4a;
+}
+
+.menu-bottom .bottom-right button:hover {
+  font-weight: bold;
+  border-radius: 0;
+}
+
