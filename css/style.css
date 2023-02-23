@@ -16,16 +16,33 @@ img {
 
 /* Menu Top */
 .menu-top {
-  height: 20px;
-  background-color: #222222;
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+}
+
+.menu-top button {
+  padding: 5px 10px;
+  margin-right: 6px;
+  font-size: 0.8em;
+  color: white;
+  background-color: #4a4a4a;
+  border: none;
+  border-radius: 5px;
+}
+
+.menu-top button:hover {
+  cursor: pointer;
 }
 
 /* Main */
 main {
-  height: calc(100vh - 120px);
+  height: calc(100vh - 130px);
   background-color: black;
   overflow: auto;
-  padding: 50px 20px;
+  padding: 30px 20px;
 }
 
 main .flex-container {
@@ -78,6 +95,6 @@ main .box-user .pin:hover {
 /* Menu Bottom */
 .menu-bottom { 
   display: flex;
-  height: 100px;
+  height: 80px;
   background-color: #222222;
 }
